@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html{
+	overflow-x: hidden;
+}
+
+
+/*Navbar*/
+.navbar{
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+	font-size: 32px;
+}
+
+.FAQ{
+	background: #ebf0ef;
+	font-family: Balsamiq Sans;
+	padding-bottom: 50px;
+}
+
+.judul{
+	margin-top: 100px;
+	font-family: IBM Plex Sans;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+/*Footer*/
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+/*Desktop Version*/
+@media (min-width: 992px) {
+	.nav-link:hover::after{
+	content: ''!important;
+	display: block!important;
+	border-bottom: 3px solid #b1f510!important;
+	width: 50%!important;
+	margin: auto!important;
+	padding-bottom: 5px!important;
+	margin-bottom: -8px!important;
+}
+}

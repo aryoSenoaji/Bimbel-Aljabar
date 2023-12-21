@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+	overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar{
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+	font-size: 32px;
+}
+
+/*jumbotron*/
+.jumbotron{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/toa-heftiba-LEoWU6PghAo-unsplash.jpg");
+	background-size: cover;
+	height: 640px;
+	text-align: center;
+}
+
+.jumbotron {
+	color: white;
+	z-index: 100;
+}
+
+.tittle{
+ 	position: absolute;
+  	left: 50%!important;
+  	z-index: 10;
+  	color: #fff;
+  	text-align: center;
+  	top: 40%!important;
+  	transform: translate(-50%, -50%);
+ 	width: fit-content;
+  	padding: 50px;
+  	font-family: Viga;
+}
+
+.jumbotron .display-4{
+  	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0,8);
+	margin-bottom: 30px;
+}
+
+/*Panel Info*/
+.panel-info{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	background-color: white;
+	margin-top: -50px;
+	border-radius: 12px;
+	padding: 30px;
+}
+
+.panel-info img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.panel-info h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.panel-info p{
+	font-size: 14px;
+	color: #757373;
+	margin-top: -5px;
+	font-weight: 200;
+}
+
+/*Program content*/
+.judulProgram{
+	font-family: Zilla Slab;
+	margin-top: 50px;
+	font-size: 50px;
+	margin-bottom: 100px;
+}
+
+.card-header h1{
+	font-family: Zilla Slab;
+	font-size: 46px;
+	margin-bottom: 20px;
+	color: #0056b3;
+}
+
+.kontenProgram{
+	margin-top: 20px;
+}
+
+.kontenProgram img{
+	margin-bottom: 13px;
+}
+
+.kartu .card{
+	background-color: whitesmoke;
+	color: #505962;
+	border-radius: 10px;
+	margin-bottom: 100px;
+	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+	font-family: Balsamiq Sans;
+}
+
+.joinNow{
+	margin-top: -50px;
+	font-family: Balsamiq Sans;
+	margin-bottom: 50px;
+}
+
+/*Footer*/
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+/*Desktop Version*/
+@media (min-width: 992px) {
+	.nav-link:hover::after{
+	content: ''!important;
+	display: block!important;
+	border-bottom: 3px solid #b1f510!important;
+	width: 50%!important;
+	margin: auto!important;
+	padding-bottom: 5px!important;
+	margin-bottom: -8px!important;
+}
+.kartu .card{
+	background-color: whitesmoke;
+	color: #505962;
+	width: 20rem;
+	height: 120rem;
+}
+
+.jumbotron{
+	margin-top: -75px;
+	}	
+}

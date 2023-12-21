@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Balsamiq Sans;
+	overflow-x: hidden;
+}
+
+
+/*Poster*/
+#carouselExampleControls{
+	margin-top: 150px;
+}
+
+.slider-area1{
+	height: 500px;
+}
+
+.container_2{
+	margin-top: 130px;
+}
+
+
+/*Navbar*/
+.navbar{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+	font-size: 32px;
+}
+
+/*jumbotron*/
+.jumbotron{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/toa-heftiba-LEoWU6PghAo-unsplash.jpg");
+	background-size: cover;
+	height: 640px;
+	text-align: center;
+}
+
+.jumbotron {
+	color: white;
+	z-index: 100;
+}
+
+.tittle{
+ 	position: absolute;
+  	left: 50%!important;
+  	z-index: 10;
+  	color: #fff;
+  	text-align: center;
+  	top: 40%!important;
+  	transform: translate(-50%, -50%);
+ 	width: fit-content;
+  	padding: 50px;
+  	font-family: Viga;
+}
+
+.jumbotron .display-4{
+  	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0,8);
+	margin-bottom: 30px;
+}
+
+/*Panel Info*/
+.panel-info{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	background-color: white;
+	margin-top: -50px;
+	border-radius: 12px;
+	padding: 30px;
+}
+
+.panel-info img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.panel-info h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.panel-info p{
+	font-size: 14px;
+	color: #757373;
+	margin-top: -5px;
+	font-weight: 200;
+}
+
+/*Tentang Bimbel*/
+.kegiatan{
+	margin-bottom: 100px;
+}
+
+.kegiatan h2{
+	font-size: 30px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.kegiatan h2 span{
+	font-weight: 500;
+}
+
+.kegiatan p{
+	font-size: 18px;
+	color: darkslategrey;
+	font-weight: 200;
+	font-family: Balsamiq Sans;
+}
+
+/*Pemberitahuan*/
+.pemberitahuan{
+	background-image: url("img/v960-ning-11.jpg");
+	height: 70vmin;
+	margin-bottom: 80px;
+}
+
+.pemberitahuan .col-md-12 > h1{
+  	padding: 2em 0 0.5em 0;
+  	color: whitesmoke;
+  	font-size: 6vmin;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: Viga;
+}
+
+.pemberitahuan .col-md-12 > p {
+  	padding: 0 4em;
+  	padding-bottom: 2em;
+  	color: white;
+  	font-size: 3vmin;
+}
+
+.pemberitahuan .pop-up {
+  	background: white;
+  	display: inline-block;
+  	border-radius: 3em;
+  	padding: 2vmin 4.5vmin;
+  	margin: 1em;
+}
+
+.pemberitahuan .pop-up h3 {
+  	font-size: 4vmin;
+}
+
+.pemberitahuan .pop-up p {
+  	font-size: 2vmin;
+}
+
+/*Testimonial*/
+.testimonial{
+	margin-top: 90px;
+}
+
+.testimonial h5{
+	text-align: center;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.testimonial figure img{
+	width: 70px;
+	margin-top: 20px;
+	opacity: 0.6;
+}
+
+.testimonial figure img.first{
+	width: 110px;
+	opacity: 1;
+	margin-top: 0px;
+}
+
+.testimonial figure h5{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #1C2C5D;
+}
+.testimonial figure p{
+	font-size: 12px;
+	color: #757373;
+	margin-top: -5px;
+}
+
+.testimonial figcaption{
+	text-align: center;
+}
+
+
+/*Utility*/
+.button{
+	border-radius: 40px;
+}
+
+/*Img Content*/
+.kegiatan1{
+	border-radius: 15px;
+	width: 600px;
+	height: 500px;
+}
+
+/*Footer*/
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+/*Desktop Version*/
+@media (min-width: 992px) {
+	.nav-link:hover::after{
+	content: ''!important;
+	display: block!important;
+	border-bottom: 3px solid #b1f510!important;
+	width: 50%!important;
+	margin: auto!important;
+	padding-bottom: 5px!important;
+	margin-bottom: -8px!important;
+}
+	
+.jumbotron{
+	margin-top: -75px;
+	}		
+}
+
+@media only screen and (max-width: 768px) {
+.pemberitahuan {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+.pemberitahuan .row h1 {
+    padding: 6vmin 4vmin;
+  }
+.pemberitahuan .platform .col-md-6 {
+    text-align: center !important;
+  }
+.pemberitahuan .pop-up i {
+    font-size: 8vmin;
+  }
+.testimonial h5{
+	font-size: 32;
+	}
+}

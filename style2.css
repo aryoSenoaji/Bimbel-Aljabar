@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar-brand{
+	font-size: 32px;
+}
+
+/*Timeline*/
+.timeline-section{
+	background-color: #e9f2f2;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.judul{
+	font-family: IBM Plex Sans;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #2f363e;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-content{
+    background-color: #2f363e;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+.timeline-content p{
+    color: #c8c8c8;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	font-family: Ibm Plex Sans!important;
+}
+.facility{
+	width: 400px;
+	height: 150px;
+	border-radius: 100px;
+}
+
+/*Program*/
+.program{
+	margin-top: 50px;
+}
+.program h2{
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: Balsamiq Sans;
+	font-size: 40px;
+}
+
+.program p{
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+/*Card*/
+.kartu .card{
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 100px;
+	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+	font-family: Balsamiq Sans;
+}
+.card-body h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.card-body p{
+	font-size: 17px;
+	font-weight: 300;
+}
+
+/*Poster*/
+#carouselExampleControls{
+	margin-top: 30px;
+	height: 300px;
+}
+
+.slider-area1{
+	height: 300px;
+}
+
+
+/*Footer*/
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+}
+
+/*Desktop Version*/
+@media (min-width: 992px) {
+	.nav-link:hover::after{
+	content: ''!important;
+	display: block!important;
+	border-bottom: 3px solid #b1f510!important;
+	width: 50%!important;
+	margin: auto!important;
+	padding-bottom: 5px!important;
+	margin-bottom: -8px!important;
+}
+	.kartu .card{
+	background-color: purple;
+	color: white;
+	width: 20rem;
+	height: 35rem;
+}
+	
+.kartu .card .card-body{
+		margin-top: 50px;
+	}
+}

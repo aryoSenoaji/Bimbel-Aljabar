@@ -1,0 +1,10 @@
+email
+nama siswa
+tempat tanggal lahir
+asal sekolah
+kelas
+foto raport terakhir(foto dibawah 2mb)
+Nama orang tua
+pekerjaan orang tua
+no telp orang tua
+untuk pembayaran akan kami chat secara personal tidak melalui website
